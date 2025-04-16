@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pop-up</h1>
+    <button id="abrirPopUp">Faça uma escolha</button>
+
+    <div id="fundo" class="escondido"></div>
+
+    <!--Pop Up !-->
+
+    <div id="popup" class="escondido">
+        <p>Deseja continuar?</p>
+        <!-- <button onclick="responder('sim')">Sim</button> 
+        <button onclick="responder('não')">Não</button> -->
+        <button onclick="abrirHTML()">Abrir HTML</button>
+        <button onclick="abrirSite()">Abrir Site</button>
+    </div>
+
+    <p id="mesagem"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
